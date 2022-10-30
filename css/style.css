@@ -9,6 +9,13 @@
     --white: rgb(145, 45, 45);
     
 }
+.btn:hover {
+    background-color: white;
+  }
+  a:hover {
+    background-color: grey;
+    
+  }
  body{
     font-family:'Poppins', 'Segeo UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--body);
@@ -44,21 +51,17 @@
     background-size: cover;
     
 } */
-    
-    /* #d1 {
-      position: absolute;
-      top: 600px;
-      left: 800px;
-      background-image:url(../img/cover_1.jpg)
-    } */
-/* btn */
+*/
 .btn {
     padding: 16px 36px;
     font-family:'Poppins', 'Segeo UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: all 0.4s ease;
     border-radius: 0;
+   
 }
 
 .btn-brand {
     background-color: var(--brand);
+    margin-right: 50px;
+    /* margin-left: 50px; */
 }
